@@ -543,7 +543,7 @@ observeEvent(input$as_tb1, {
   })
   
   check_me <- reactive({
-    print(input$ADrug_1)
+    #print(input$ADrug_1)
     choice <- input$search
     if(choice == "DDI_Basic")
     {
@@ -688,7 +688,7 @@ observeEvent(input$as_tb1, {
    # print("This is what was chosen")
   #  print(mytext)
   #  print("TRYING TO MAKE IT REACT!!")
-    print(input$ADrug_2)
+  #  print(input$ADrug_2)
     test<-NULL
     for(i in mytext)
     {
@@ -935,16 +935,16 @@ observeEvent(input$as_tb1, {
               row2 <- c(i,paste(m,k,pt1),paste(n,j,pt2), s)
               #print(row2)
               holding <- rbind(holding,row2)
-	      print("Second case loop")
+#	      print("Second case loop")
               holding <- rbind(holding,row2)
-	      print("This is action 1")
-       	      print(action1)
-              print("This is action 2")
-              print(action2)
-	      print("Drug 1")
-	      print(n)
-	      print("Drug 2")
-	      print(m)
+#	      print("This is action 1")
+ #      	      print(action1)
+ #             print("This is action 2")
+ #             print(action2)
+#	      print("Drug 1")
+#	      print(n)
+#	      print("Drug 2")
+#	      print(m)
 		}
             }
           }   
